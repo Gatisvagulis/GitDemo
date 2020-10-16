@@ -1,0 +1,11 @@
+.redColor{
+    color:red;
+}
+
+input:hover{
+    background-color: royalblue;
+}
+
+input:focus{
+    background-color: greenyellow;
+}

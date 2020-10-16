@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+    <div class="col-1">
+    <a routerLink="/registration">Registracija</a>
+    </div>
+    <div class="col-2 offset-9">
+   <p>kas te notiek?</p>
+    </div>
+    </div>
+
+    <div class="row">
+        <div>
+            <label for="">Inseret string of number</label>
+            <input id="getStringFromInput" type="text">
+            <button (click)="testmethod.GetCorrectNumbers()" >Call function</button>
+            <h2>max number: {{testmethod.maxnumberIs}} </h2>
+            <h2>number index: {{testmethod.maxnumberIndex}} </h2>
+        </div>
+
+    </div>
+    </div>

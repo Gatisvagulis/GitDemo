@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 offset-sm-4">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="mr-1">Login</label>
+                    <input type="text" id="loginId">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="mr-1">Password</label>
+                    <input type="password" id="paroleId">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <button (click)="methods.onLoginClick()">Login</button>
+                </div>
+            </div>   
+            <div class="row" *ngIf="page.showError">
+                <div class="col-sm-12 redColor">
+                    {{page.errorMessage}}
+                </div>
+            </div>   
+        </div>
+    </div>
+</div>
